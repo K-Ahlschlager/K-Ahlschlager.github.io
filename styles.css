@@ -80,6 +80,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   animation: spin 10s infinite linear;
+  transform-origin: center center;
 }
 
 .project {
@@ -87,6 +88,7 @@ main {
   color: #fff;
   padding: 10px;
   border-radius: 5px;
+  transform-origin: center center;
 }
 
 @keyframes spin {
