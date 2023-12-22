@@ -60,3 +60,40 @@ main {
 }
 
 /* Add more styling as needed */
+#projects {
+  text-align: center;
+  padding: 20px;
+}
+
+.project-wheel-container {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.project-wheel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  animation: spin 10s infinite linear;
+}
+
+.project {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
