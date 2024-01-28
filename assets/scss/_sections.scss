@@ -131,7 +131,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills {
 
@@ -629,20 +629,20 @@ section {
 /*--------------------------------------------------------------
 # Project Highlights
 --------------------------------------------------------------*/
-.project_highlights {
+.testimonials {
 
   .section-header {
     margin-bottom: 40px;
   }
 
-  .project_highlights-carousel, .project_highlights-slider {
+  .testimonials-carousel, .testimonials-slider {
     overflow: hidden;
   }
 
-  .project_highlight-item {
+  .testimonial-item {
     text-align: center;
 
-    .project_highlight-img {
+    .testimonial-img {
       width: 120px;
       border-radius: 50%;
       border: 4px solid #fff;
@@ -705,7 +705,7 @@ section {
   }
 
   @media (min-width: 992px) {
-    .project_highlight-item p {
+    .testimonial-item p {
       width: 80%;
     } 
   }
