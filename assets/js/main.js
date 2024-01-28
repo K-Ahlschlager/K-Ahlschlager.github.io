@@ -233,7 +233,7 @@
   });
 
   /**
-   * Testimonoal slider
+   * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
     speed: 600,
