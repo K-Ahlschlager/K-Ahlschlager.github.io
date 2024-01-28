@@ -268,16 +268,3 @@
   new PureCounter();
 
 })()
-
-function showImage() {
-	var fullImage = document.getElementById('fullImage');
-	var viewImageBtn = document.getElementById('viewImageBtn');
-
-	if (fullImage.style.display === 'none') {
-		fullImage.style.display = 'block';
-		viewImageBtn.innerText = 'Close Image';
-	} else {
-		fullImage.style.display = 'none';
-		viewImageBtn.innerText = 'View Image';
-	}
-}
