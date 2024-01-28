@@ -1128,6 +1128,7 @@ section {
 #footer {
 	/*background: #f7f8f9;*/
 	background: url("../img/hero-bg.jpg") top right no-repeat;
+	background-size: cover;
 	color: #45505b;
 	font-size: 14px;
 	text-align: center;
