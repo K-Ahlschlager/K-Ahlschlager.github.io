@@ -269,9 +269,9 @@
 
 })()
 
-function hideshowUndergrad() {
-  var x = document.getElementById("undergrad-hidden-div");
-  var y = document.getElementById("undergrad-hyperlink")
+function hide_show(divID, hyperlinkID) {
+  var x = document.getElementById(divID);
+  var y = document.getElementById(hyperlinkID)
   if (x.style.display === "block") {
     x.style.display = "none";
     y.textContent = "View Degree"
