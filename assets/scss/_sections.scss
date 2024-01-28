@@ -627,22 +627,22 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# Project Highlights
 --------------------------------------------------------------*/
-.testimonials {
+.project_highlights {
 
   .section-header {
     margin-bottom: 40px;
   }
 
-  .testimonials-carousel, .testimonials-slider {
+  .project_highlights-carousel, .project_highlights-slider {
     overflow: hidden;
   }
 
-  .testimonial-item {
+  .project_highlight-item {
     text-align: center;
 
-    .testimonial-img {
+    .project_highlight-img {
       width: 120px;
       border-radius: 50%;
       border: 4px solid #fff;
@@ -705,7 +705,7 @@ section {
   }
 
   @media (min-width: 992px) {
-    .testimonial-item p {
+    .project_highlight-item p {
       width: 80%;
     } 
   }
