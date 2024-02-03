@@ -98,6 +98,12 @@
 
 							<div class="swiper-slide">
 								<video width="700px" height="600px" controls="controls">
+									<source src="/assets/img/portfolio/RHex/1.mp4" type="video/mp4" />
+								</video>
+							</div>
+							
+							<div class="swiper-slide">
+								<video width="700px" height="600px" controls="controls">
 									<source src="/assets/img/portfolio/RHex/2.mp4" type="video/mp4" />
 								</video>
 							</div>
@@ -112,7 +118,7 @@
 						<ul>
 							<li><strong>Category</strong>: Robot Design</li>
 							<li><strong>Client</strong>: Academic Project</li>
-							<li><strong>Project date</strong>: January, 2024</li>
+							<li><strong>Project date</strong>: 2022/2023</li>
 							<li><strong>Project status</strong>: Completed Successfully</li>
 						</ul>
 					</div>
@@ -120,14 +126,19 @@
 						<h2>RHex Robot with Tethered Drone</h2>
 						<p>
 							This project formed the basis of my masters research. The aim of the project was to develop a multi-robot
-							system that would use the aerial ability of a drone to determine the location of points-of-interest that 
-							were not visible to the ground based RHex. The RHex platform would then serve to carry the drone tethered
-							to its chassis along various terrain thus presevering the minimal flight time of the drone. This approach 
-							served to reap the benefits of both ground and air based autonomous vehicles. For this both the RHex-styled
-							platform and the FPV drone were custom built and programmed to serve their unique purpose.
+							system, consisting of a ground-based RHex-styled platform and accompanying tethered drone. The RHex makes
+							use of both cameras and a LiDAR sensor for navigation and object detection, like most traditional exploration robots.
+							These sensors on the RHex are subject to the height constraints of the platform, and as such are unable to perceive
+							the environment beyond the line-of-sight of the RHex, which can limit the platforms ability to perform effecient path planning.
+							<br><br>
+							For this research, an aerial drone was added to the RHex platform to allow for an on-demand/as-needed <q>bird's-eye-view</q> 
+							to improve the system's path planning ability. Taking into account the standard short flight time of typical drones, the drone 
+							was tethered to the chassis of the RHex and carried as a payload when an aerial view was not needed by the autonomous system 
+							or not requested by the handler. This approach served to reap the benefits of both ground- and air-based autonomous vehicles. For this,
+							both the RHex-styled platform and the FPV drone were custom built and programmed to serve their unique purpose.
 							<br><br>
 							This project was immensely challenging and required becoming familiar with computer vision, autonomous robotics,
-							LiDAR data processing and distributed control systems.
+							LiDAR data processing, multi-threading, Object-oriented programming (OOP), modular programming and distributed control systems.
 						</p>
 					</div>
 				</div>
